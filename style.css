@@ -1,0 +1,56 @@
+                        .wrapper {
+                            width: 60%;
+                            margin: auto;
+                            height: auto;
+                        }
+                        
+                        header img {
+                            width: 25%;
+                            height: auto;
+                        }
+                        
+                        .homepic {
+                            width: 45%;
+                            margin: 0 auto;
+                            display: block;
+                        }
+                        
+                        #top-nav {
+                            float: right;
+                        }
+                        
+                        #top-nav ul {
+                            margin: 0;
+                            list-style: none;
+                        }
+                        
+                        #top-nav ul li {
+                            display: inline-block;
+                            margin-left: 40px;
+                        }
+                        
+                        #top-nav ul li a {
+                            font-size: 18px;
+                            color: #8f99a4;
+                            text-decoration: none;
+                            font-family: Quattrocento, sans-serif;
+                        }
+                        
+                        header h1 a:hover {
+                            color: #777;
+                        }
+                        
+                        #top-nav ul li a:hover {
+                            color: #777;
+                        }
+                        
+                        .row:before,
+                        .row:after {}
+                        
+                        .img_rounded {
+                            width: 100%;
+                        }
+                        
+                        body {
+                            background-color: #d2b48c;
+                        }
