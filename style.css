@@ -91,7 +91,7 @@ footer #copyright {
 }
 
 footer #social-media {
-    background-color: #8b959f;
+    background-color: #C5DFC5;
 }
 
 footer #social-media ul {
@@ -134,6 +134,11 @@ footer #social-media ul li {
 /* ----sitting at cave profile pic*/
 
 .hikingredrocks {
+    float: right;
+}
+
+.img-circle {
+    border-radius: 50%;
     float: right;
 }
 
