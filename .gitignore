@@ -3,3 +3,21 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+<?php
+  $name = "Amanda Jongeward";
+  
+  $webAddress = "http://www.matthewleach.com";
+?>
+<?php
+  $name = $_POST['Amanda Jongeward'];
+  $email = $_POST['amanda.jongewaard@gmail.com'];
+  $message = $_POST['message'];
+ 
+  $to = "email@mywebsite.com";
+  $subject = "From Website Title";
+  $emailcontent = "From: $name \n\n $message";
+  $mailheader = "From: $email";
+ 
+  mail($to, $subject, $emailcontent, $mailheader) or header('Location: emailerror.html');
+  header('Location: thank-you.html');
+?>
