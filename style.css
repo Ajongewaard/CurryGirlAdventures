@@ -54,7 +54,7 @@ header h1 a:hover {
 
 #top-nav {
     float: right;
-    margin-top: 72px;
+    margin-top: 40px;
 }
 
 #top-nav ul {
@@ -306,4 +306,10 @@ label {
 
 body {
     background-color: #C5DFC5;
+}
+
+.brand-img {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: #8f99a4;
 }
