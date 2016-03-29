@@ -15,79 +15,57 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script>
         $(function () {
-
+            $("header").load("include/header.html");
+            $("footer").load("include/footer.html");
         });
     </script>
 </head>
 
+
+<header></header>
+
+
 <body>
-    <header>
-        <div class="wrapper">
-            <a class="navbar-brand" href="#">
-                <div class="brand-img">
-                    <a href="home.html">Curry Girls Adventures</a>
+
+
+    <!-- top part complete dont touch -->
+
+
+    <main>
+
+        <div class="container">
+            <div class="row">
+                <div class="center">
+
+
+                    <p><strong>Contact</strong></p>
+                    <p> Hi, I'd love to hear from my readers. Drop me a line from below.</p>
+
                 </div>
-            </a>
-            <nav id="top-nav">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-
-                    <li><a href="DenverHighLights.html">Denver HighLights</a></li>
-                    <li><a href="Travel.html">Travel</a></li>
-                    <li><a href="DogStuff.html">Dog Stuff</a></li>
-                    <li>
-                        <a href="Contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-        <!--end .wrapper -->
-    </header>
 
 
-    <body>
-
-
-        <!-- top part complete dont touch -->
-
-
-        <main>
-
-            <div class="container">
-                <div class="row">
-                    <div class="center">
-
-
-                        <p><strong>Contact</strong></p>
-                        <p> Hi, I'd love to hear from my readers. Drop me a line from below.</p>
-
-                    </div>
-
-
-                    <div class="center">
-                        <form action="php/mail.php" method="POST">
-                            <p>Name</p>
-                            <input type="text" name="name" />
-                            <p>Email</p>
-                            <input type="text" name="email" />
-                            <p>Message</p>
-                            <textarea name="message" rows="6" cols="25"></textarea>
-                            <p>
-                                <input type="submit" value="Send" />
-                                <input type="reset" value="Clear" />
-                            </p>
-                        </form>
-                    </div>
+                <div class="center">
+                    <form action="php/mail.php" method="POST">
+                        <p>Name</p>
+                        <input type="text" name="name" />
+                        <p>Email</p>
+                        <input type="text" name="email" />
+                        <p>Message</p>
+                        <textarea name="message" rows="6" cols="25"></textarea>
+                        <p>
+                            <input type="submit" value="Send" />
+                            <input type="reset" value="Clear" />
+                        </p>
+                    </form>
                 </div>
             </div>
+        </div>
 
-        </main>
+    </main>
 
-        <footer></footer>
+    <footer></footer>
 
 
-    </body>
+</body>
 
 </html>
