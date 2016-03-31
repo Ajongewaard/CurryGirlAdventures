@@ -4,7 +4,7 @@
 /* ----- =structure ----- */
 
 header {
-    height: 120px;
+    height: 160px;
     background-color: #fff;
 }
 
@@ -40,7 +40,8 @@ header h1 {
     margin: 0 0 0 20px;
 }
 
-header h1 a {
+header h1,
+{
     text-decoration: none;
     color: #8f99a4;
 }
@@ -54,7 +55,7 @@ header h1 a:hover {
 
 #top-nav {
     float: right;
-    margin-top: 30px;
+    margin-top: 55px;
 }
 
 #top-nav ul {
@@ -133,7 +134,7 @@ footer #social-media ul li {
 
 /* ----sitting at cave profile pic*/
 
-.hikingredrocks {
+.mesiwngpic {
     float: right;
 }
 
@@ -165,14 +166,32 @@ h2 {
 h3 {
     font-family: Quattrocento, sans-serif;
     font-size: 24px;
-    color: #363636;
+    color: #8f99a4;
+}
+
+h4 {
+    font-family: Quattrocento, sans-serif;
+    font-size: 24px;
+    color: #8f99a4;
+}
+
+h5 {
+    font-family: Quattrocento, sans-serif;
+    font-size: 24px;
+    color: #8f99a4;
+}
+
+h6 {
+    font-family: Quattrocento, sans-serif;
+    font-size: 24px;
+    color: #8f99a4;
 }
 
 p {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 18px;
     line-height: 28px;
-    color: #777;
+    color: #8f99a4;
 }
 
 .center {
@@ -312,4 +331,10 @@ body {
     font-family: 'Shadows Into Light', cursive;
     font-size: 40px;
     color: #8f99a4;
+}
+
+.form-horizontal .control-label2 {
+    margin-bottom: -50px;
+    padding-top: 7px;
+    text-align: right;
 }
