@@ -9,7 +9,6 @@ header {
 }
 
 #content {
-    padding-top: 60px;
     min-height: 400px;
 }
 
@@ -293,7 +292,8 @@ hr {
 }
 
 #content img {
-    border: 1px #b4b4b4 solid;
+    border: 1px #b4b4b4;
+    padding: 25px;
 }
 
 .center-block {
