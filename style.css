@@ -9,6 +9,7 @@ header {
 }
 
 #content {
+    padding-top: 10px;
     min-height: 400px;
 }
 

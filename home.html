@@ -18,39 +18,62 @@
             $("footer").load("include/footer.html");
         });
     </script>
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
     <header></header>
-    <br>
-    <br>
+    <div id="content">
+        <div class="wrapper">
 
-    <br>
+            <div class="center">
 
+                <div id="cgCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#cgCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#cgCarousel" data-slide-to="1"></li>
+                    </ol>
 
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <h2> Coors Field</h2>
+                            <img src="images/coorsfield.jpg" class="center" alt="coors field" />
+                            <p>Coors Field, Blizzard 2016. One of the few adventures of our first 6 months in Denver.</p>
+                        </div>
 
-    <div class="wrapper">
+                        <div class="item">
+                            <h2>Red Rocks</h2>
+                            <img src="imagestravel/incaveredrocks.jpg" class="center" alt="incaveredrocks" />
+                            <p>Hiking in the Red Rocks, beauitful small hike among the magnifient scenry. Dog friendly, Olive will like it next time.</p>
+                        </div>
 
-        <div class="center">
+                    </div>
 
-            <h2> Coors Field</h2>
-            <div class="row"> <img src="images/coorsfield.jpg" class="center" alt="coors field" />
-                <p>Coors Field, Blizzard 2016. One of the few adventures of our first 6 months in Denver.</p>
-
+                    <a class="left" href="#cgCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right" href="#cgCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
-            <h2>Red Rocks</h2>
-            <div class="row"> <img src="imagestravel/incaveredrocks.jpg" class="center" alt="incaveredrocks" />
+        </div>
+    </div>
 
-                <p>Hiking in the Red Rocks, beauitful small hike among the magnifient scenry. Dog friendly, Olive will like it next time.</p>
+    <!--end content-->
 
-            </div>
+    <footer>
 
-
-
-            <!--end content-->
-
-            <footer>
-
-            </footer>
+    </footer>
 
 </html>
